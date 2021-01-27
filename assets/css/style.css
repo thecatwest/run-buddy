@@ -5,6 +5,7 @@
 }
 
 body {
+    /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
     
@@ -73,12 +74,13 @@ section {
 
 /* Hero Style Start */
 .hero {
-    background-image: url(../images/hero-bg.jpg);
+    background-image: url('../images/hero-bg.jpg');
     height: 600px;
     background-size: cover;
     background-position: center;
     position: relative;
 }
+/* Hero Style End */
 
 .hero-form {
     background-color: #fce138;
@@ -121,6 +123,3 @@ section {
     border: none;
     padding: 10px 20px;
 }
-
-}
-/* Hero Style End */
